@@ -93,4 +93,9 @@
         grid-row: 3;
         grid-column: 1;
     }
+
+    #summary {
+        max-width: 310px;
+        margin: auto;
+    }
 }
