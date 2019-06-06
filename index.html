@@ -1,1 +1,68 @@
-Hello, World!
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Petar Peychev</title>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="icon" href="resources/favicon.png">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body>
+    <div id="container">
+
+      <div id="top-container">
+        <!-- Header and Logo -->
+        <header>
+          <a href="/">
+          <img src="resources/logo.png" alt="vitruvian man logo">
+          <h1>Petar Peychev</h1>
+          </a>
+        </header>
+
+        <!-- Navigation Bar -->
+        <nav>
+          <ul>
+            <li><a href="/pages/resume.html">résumé</a></li>
+            <li><a href="https://blog.petarpeychev.com/">blog</a></li>
+            <li><a href="/pages/contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main Content -->
+      <main>
+        <img id = "portrait" src="resources/portrait.png" alt="personal portrait" height="250px">
+        <div id="summary">
+            computer science student at <strong><a href="https://www.ntu.ac.uk/">Nottingham Trent University</a></strong><br>
+            former software engineering student at <strong><a href="https://softuni.org/">SoftUni</a></strong><br>
+            endlessly <strong>curious</strong>, <strong>creative</strong> and <strong>ambitious</strong>
+        </div>
+
+        <h2 id="projects-title">Some of my Projects:</h2>
+
+        <div id="project-container">
+            <div class="card">
+                <h3>Zolon</h3>
+                <img src="resources/zolon.png" alt="project image">
+                <p>Design and implementation of a toy interpreted functional language.</p>
+            </div>
+
+            <div class="card">
+                <h3>Automatagen</h3>
+                <img src="resources/automatagen.png" alt="project image">
+                <p>Python package for random terrain generation using cellular automata.</p>
+            </div>
+
+            <div class="card">
+                <h3>Cedar Assembler</h3>
+                <img src="resources/assembly.png" alt="project image">
+                <p>Assembler with configurable instruction sets, which produces Cedar Logic Memory files.</p>
+            </div>
+        </div>
+
+      </main>
+    </div>
+  </body>
+</html>
