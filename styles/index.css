@@ -1,6 +1,7 @@
 #portrait {
     margin: 60px auto 20px auto;
     display: block;
+    border-radius: 50%;
 }
 
 #summary {
